@@ -1,1 +1,1 @@
-# NSCLC-Survival-Prediction
+# NSCLC Survival Prediction
