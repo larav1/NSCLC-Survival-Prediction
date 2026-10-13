@@ -71,8 +71,6 @@ Researchers interested in reproducing the experiments should first obtain access
 
 If you use this repository, please cite:
 
-If you use this code in your research, please cite our paper:
-
 ```bibtex
 @incollection{Da_Costa_Bezerra2027,
   title     = {Survival prediction in {NSCLC}: A comparison of unimodal and
