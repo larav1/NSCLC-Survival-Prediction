@@ -71,4 +71,19 @@ Researchers interested in reproducing the experiments should first obtain access
 
 If you use this repository, please cite:
 
-[]
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@incollection{Da_Costa_Bezerra2027,
+  title     = {Survival prediction in {NSCLC}: A comparison of unimodal and
+               multimodal models},
+  author    = {da Costa Bezerra, Lara Vitória and
+               de Oliveira, Amanda Gondim and
+               de Lima Oliveira Filho, Isaac and
+               de Medeiros Santos, Araken},
+  booktitle = {Lecture Notes in Computer Science},
+  publisher = {Springer Nature Switzerland},
+  pages     = {81--95},
+  year      = {2027}
+}
+```
