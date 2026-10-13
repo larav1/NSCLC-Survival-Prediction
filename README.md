@@ -72,16 +72,20 @@ Researchers interested in reproducing the experiments should first obtain access
 If you use this repository, please cite:
 
 ```bibtex
-@incollection{Da_Costa_Bezerra2027,
-  title     = {Survival prediction in {NSCLC}: A comparison of unimodal and
-               multimodal models},
-  author    = {da Costa Bezerra, Lara Vitória and
-               de Oliveira, Amanda Gondim and
-               de Lima Oliveira Filho, Isaac and
-               de Medeiros Santos, Araken},
-  booktitle = {Lecture Notes in Computer Science},
-  publisher = {Springer Nature Switzerland},
-  pages     = {81--95},
-  year      = {2027}
+@InProceedings{10.1007/978-3-032-39892-5_6,
+author="da Costa Bezerra, Lara Vit{\'o}ria
+and de Oliveira, Amanda Gondim
+and de Lima Oliveira Filho, Isaac
+and de Medeiros Santos, Araken",
+editor="Recamonde-Mendoza, Mariana
+and Barros, Rodrigo C.",
+title="Survival Prediction in NSCLC: A Comparison of Unimodal and Multimodal Models",
+booktitle="Intelligent Systems",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="81--95",
+abstract="Non-small cell lung cancer (NSCLC) is the leading cause of cancer-related death, and predicting survival is critical for treatment planning. Unimodal models, however, may limit the capture of clinical and tumor heterogeneity. This study investigates the impact of different multimodal integration strategies on survival modeling. Five models were evaluated using the NSCLC-Radiomics (Lung1) dataset from The Cancer Imaging Archive: DeepSurv and Random Survival Forest (RSF) with clinical data, and two distinct multimodal strategies: (I) a DeepSurv model employing a late-fusion strategy, and (II) a feature-level fusion strategy that combines ResNet-18 image features with clinical variables for survival prediction using a Random Survival Forest (RSF). The evaluation was performed using stratified cross-validation in 5 folds, employing the C-index and the Integrated Brier Score (IBS). The clinical models performed similarly, while the image-only model performed worse. Multimodal approaches improved the C-index, particularly the multimodal DeepSurv model (0.5935 {\textpm} 0.0159; p = 0.013984), although they were associated with a slight degradation in IBS, indicating a trade-off between discrimination and calibration. The multimodal RSF model also showed an improvement (0.5611 {\textpm} 0.0334; p = 0.001180). The results indicate that different multimodal integration strategies can improve discriminative performance in survival models for NSCLC, with the late fusion approach showing the best overall performance. However, performance remains moderate, suggesting that further improvements are needed for clinical application.",
+isbn="978-3-032-39892-5"
 }
 ```
